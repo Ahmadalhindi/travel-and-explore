@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #f6d7b0;
+    color: #000000;
+    font-family: 'Playfair Display', serif;
+}
+
+h1,
+h2,
+h3 {
+    letter-spacing: 2px;
+}
+
+
+/* Nav header */
+.nav-link:nth-child(1) {
+    flex: 1;
+}
+
+#nav-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+    align-items: baseline;
+    padding: 0;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 15px 10px;
+    color: inherit;
+}
+
+.nav-link>a {
+    color: inherit;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.nav-link a:hover {
+    color: mediumblue
+}
+
+/* Main image */
+/* Images imported from "https://www.pexels.com" */
+
+.background-utter {
+    background: url(../images/pexels-photo-1201673.webp) center center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.background-left {
+    align-self: flex-start;
+    margin-top: 500px;
+    margin-left: 50px;
+    border-radius: 10px 40px 40px 10px;
+}
+
+.background-right {
+    align-self: flex-end;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border-radius: 40px 10px 10px 40px;
+}
+
+.background-left,
+.background-right {
+    padding: .9em;
+    background-color: rgba(242, 210, 169, 0.7);
+    font-size: 15px;
+    border: 3px solid #fad27e;
+}
+
+/* We offer */
+/* Image imported from "https://www.pexels.com"  */
+
+#about-us {
+    display: flex;
+    height: 700px;
+}
+
+.pic-offer {
+    width: 100%;
+    height: 700px;
+    background: url(../images/pexels-photo-4102994.webp) center center/cover no-repeat;
+    flex: 1;
+}
+
+.content-offer {
+    padding: 20px 10px;
+    margin: 40px 5px;
+    align-self: center;
+}
+
+.content-offer h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.content-offer li {
+    list-style-type: none;
+    padding: 0 20px;
+    margin: 20px 10px;
+}
+
+.content-offer li::before {
+    content: "֍ ";
+}
+
+/* Join us */
+
+#sign-up {
+    border: 5px solid #fad27e;
+    border-radius: 50px;
+    padding: 60px 10px;
+    margin: 40px auto 60px auto;
+    text-align: center;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    background-color: papayawhip;
+}
+
+#fname,
+#lname,
+#email {
+    background: transparent;
+    height: 25px;
+    margin: 25px 0;
+    padding: 10px 0;
+    border: 3px solid #fad27e;
+    border-radius: 2px;
+    width: 90%;
+    background-color: #f6d7b0;
+}
+
+#sign-up h2 {
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+    border: 3px solid none;
+}
+
+.submit-input {
+    border: 3px solid #fad27e;
+    border-radius: 10px;
+}
+
+.submit-input:hover {
+    border-color: #f16c6b;
+    font-weight: bold;
+}
+
+/* Contact us - Footer
+Images imported from "https://www.pexels.com" */
+
+#contact {
+    display: flex;
+    height: 600px;
+}
+
+.image-contact-us {
+    background: url(../images/pexels-photo-1755388.webp) center center/cover no-repeat;
+    flex: 3;
+}
+
+.content-contact {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    gap: 15px;
+    margin-top: 10px;
+    padding: 7px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.image2-contact-us {
+    background: url(../images/pexels-photo-1262304.webp) center center/cover no-repeat;
+    flex: 3;
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 60px 0;
+}
+
+.content-contact>h2 {
+    padding: 20px 0;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 800px) {
+
+    #about-us,
+    #contact,
+    .form-section {
+        flex-direction: column;
+    }
+
+    #sign-up {
+        width: 70%;
+        margin-top: -5px;
+    }
+
+    .background-left,
+    .background-right {
+        font-size: small;
+    }
+
+}
