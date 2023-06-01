@@ -39,7 +39,7 @@ Also, users can build their own albums by adding photos and sharing their inspir
 
 - __Join us section__
 
-  -It contains a sign-up form to fill in the user information so can easily get an advantage from the website. 
+  -It contains a sign-up form to fill in the user information so can easily get an advantage from the website.
   - User could fill first name, last name and email address in obvious and easy way.
   - Hint available when user is missing one of the filling.
   - Submit button comes with bold font when hover the mouse over it.
@@ -91,4 +91,15 @@ Also, users can build their own albums by adding photos and sharing their inspir
 
 I did a test by lighthouse.
 
-![lighthouse](https://ahmadalhindi-travel-and-62ni7yomiw.us2.codeanyapp.com/files/download/?id=cf04a40b-d036-4d25-a79c-452ce402dd32)
+![lighthouse](https://ahmadalhindi-travel-and-62ni7yomiw.us2.codeanyapp.com/files/download/?id=4c126563-36ae-464f-91b5-8266ee17efb9)
+
+## Deployment
+
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here - <>
