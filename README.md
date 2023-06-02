@@ -4,7 +4,7 @@ Every journey comes with planning. Our mission here is to give you the chance to
 
 Also, users can build their own albums by adding photos and sharing their inspiring stories and the moments from their traveling.
 
-![Responsice Mockup](https://ahmadalhindi-travel-and-62ni7yomiw.us2.codeanyapp.com/files/download/?id=32485eed-facb-4692-806c-16d409fb8835)
+![Responsice Mockup](assets/documentation/amiresponsive.png)
 
 ## Features
 
@@ -18,14 +18,14 @@ Also, users can build their own albums by adding photos and sharing their inspir
   - The header shows the name of website and help user to reach the different sections in the same page.
   - The links color changes when hover the mouse above it.
   
-![Nav-Bar](https://ahmadalhindi-travel-and-62ni7yomiw.us2.codeanyapp.com/files/download/?id=b2510c61-621f-4517-85fc-c43c0cd0c50e)
+![Nav-bar](https://github.com/Ahmadalhindi/travel-and-explore/blob/main/documentation/Nav-bar.png)
 
 - __The home image section__
 
   - The home image includes a background image to give a good hint about the website.
   - Also it includes a text divided from each one by located differently inside the image to give a passion and inspiration for travelling.
 
-![Landing-Page](https://ahmadalhindi-travel-and-62ni7yomiw.us2.codeanyapp.com/files/download/?id=c4dbabc1-8a94-480e-988a-2e8ce625c5ba)
+![Landing-Page](https://ahmadalhindi-travel-and-62ni7yomiw.us2.codeanyapp.com/files/download/?id=6db02cbc-7a13-4fcf-8123-008bb29f9404)
 
 - __About us Section__
 
