@@ -86,7 +86,7 @@ Also, users can build their own albums by adding photos and sharing their inspir
 
 - I tested the changing font color or font weight when hover the mouse over the nav-links and the submit button in sign up form.
   
-- The project is tested and worked smoothly to different screen sizes, using media queries and using in flex layout. In this case the order of the image and the text in (head image, about us, and contact sections) will be switched horizontally or vertically according to the size of the screen to organize the context and facilitate the viewing.
+- The project is tested and worked smoothly to different screen sizes. In this case the order of the image and the text in (head image, about us, and contact sections) will be switched horizontally or vertically according to the size of the screen to organize the context and facilitate the viewing, by adding flex as a a layout.
 
 ## unfixed-bugs
 
@@ -129,6 +129,6 @@ The live link can be found here - [Travel and Explore](https://ahmadalhindi.gith
 
 ### Media
 
-- All images were taken from [Pexels](https://www.pexels.com/)
+- All images were taken from [Pexels](https://www.pexels.com/).
   
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
