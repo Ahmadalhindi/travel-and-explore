@@ -4,7 +4,6 @@ Every journey comes with planning. Our mission here is to give user the chance t
 
 Also, users can build their own albums by adding photos and sharing their inspiring stories and the moments from their traveling.
 
-
 ![Responsice Mockup](assets/documentation/amiresponsive.png)
 
 ## Feature
@@ -31,7 +30,6 @@ Also, users can build their own albums by adding photos and sharing their inspir
 
   - Also it includes a text divided from each one by located differently inside the image to give a passion and inspiration for travelling.
   
-
 ![Landing-Page](assets/documentation/Landing-page-image.png)
 
 - __About us Section__
@@ -96,7 +94,7 @@ Also, users can build their own albums by adding photos and sharing their inspir
 
 - I faced many bugs, inconvenient notifications and heavy loading using codeanywhere.
 
-- when I tried to log in at codeanywhere using my email address or github account it shows that Subscription expired. So instead, I used the link from Code institute.
+- when I tried to log in at codeanywhere using my email address or github account it shows that Subscription expired. But instead, I used the link from Code institute.
 
 ### Validator Testing
 
