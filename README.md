@@ -1,105 +1,136 @@
 # Travel and Explore
 
-Every journey comes with planning. Our mission here is to give you the chance to connect with our members, those who are expert travelers, to gain more news, tips, tricks, and passion that make your trip extraordinary.
+Every journey comes with planning. Our mission here is to give user the chance to connect with our members, those who are expert travelers, to gain more news, tips, tricks, and passion that make user trip extraordinary.
 
 Also, users can build their own albums by adding photos and sharing their inspiring stories and the moments from their traveling.
 
+
 ![Responsice Mockup](assets/documentation/amiresponsive.png)
 
-## Features
+## Feature
 
 ### Existing Features
 
 - __The header - Navigation bar__
 
   - Navigation bar is on the head of the page.
+  
   - The logo is on the left side that links to the header.
+  
   - Four navigation links (home, about us, contact and sign up) are to the right which link to different sections of the same page.
+  
   - The header shows the name of website and help user to reach the different sections in the same page.
+  
   - The links color changes when hover the mouse above it.
   
-![Nav-bar](https://github.com/Ahmadalhindi/travel-and-explore/blob/main/documentation/Nav-bar.png)
+![nav-bar](assets/documentation/Nav-bar.png)
 
 - __The home image section__
 
   - The home image includes a background image to give a good hint about the website.
-  - Also it includes a text divided from each one by located differently inside the image to give a passion and inspiration for travelling.
 
-![Landing-Page](https://ahmadalhindi-travel-and-62ni7yomiw.us2.codeanyapp.com/files/download/?id=6db02cbc-7a13-4fcf-8123-008bb29f9404)
+  - Also it includes a text divided from each one by located differently inside the image to give a passion and inspiration for travelling.
+  
+
+![Landing-Page](assets/documentation/Landing-page-image.png)
 
 - __About us Section__
 
-  - This section describes in more details about what the website about to offer
+  - This section describes in more details about the goal of the website.
+  
   - One image on the left give an impact of the mysterious archaeological site.
+  
   - Tow texts on the other side contains headline and paragraph each one, to explain the goals and why it's appropriate, in an organized listed way.
-  -the image and the text aligning beside each other horizontally but they will be aligning vertically when the user fold the website or open in it small screen to facilitate the reading.
-  -The order of the image and the text, will be listed horizontally or vertically according to the size of the screen to facilitate the reading to facilitate the reading.
+  
+  - The image and the text aligning beside each other horizontally or vertically according to the size of the screen, to facilitate the exploring.
 
-![about-us](https://ahmadalhindi-travel-and-62ni7yomiw.us2.codeanyapp.com/files/download/?id=6c2086eb-7886-4de8-8c3c-110d08c5f647)
+![about-us](assets/documentation/about-us.png)
 
 - __Join us section__
 
-  -It contains a sign-up form to fill in the user information so can easily get an advantage from the website.
-  - User could fill first name, last name and email address in obvious and easy way.
-  - Hint available when user is missing one of the filling.
-  - Submit button comes with bold font when hover the mouse over it.
+  - It contains a sign-up form to use the website services.
+  
+  - The form collects user's first name, last name and an email address.
+  
+  - Hint available when user is missing one of the filling or fill an incorrect email address form.
+  
+  - The font in submit button turns to bold when hover the mouse over it.
 
-  ![Sign-up-form](https://ahmadalhindi-travel-and-62ni7yomiw.us2.codeanyapp.com/files/download/?id=0ff4361f-a66f-4a41-8b8b-b0b4874c24cf)
+  ![Sign-up-form](assets/documentation/sign-up-form.png)
 
 - __The Footer - contact us__
 
-  - The footer section contains our contact information to reach us online or in real visiting without any hesitate.
-  - listed our email address, phone number and address.
-  - promote the user to be more social with us by providing our social media link.
-  - Our social media links are listed beside each other and represented as an icons.
+  - The footer section contains our contact information to reach us online or in real visiting without any hesitate, (email address, phone number and addres).
+  
   - The contact information are in the middle of two images that illustrate how they are close to us.
-
-![contact-us](https://ahmadalhindi-travel-and-62ni7yomiw.us2.codeanyapp.com/files/download/?id=905b81a9-d065-429a-b08e-e1038e303503)
+  
+  - Promote the user to be more social with us by providing our social media links, that listed beside each other and represented as an icons.
+  
+![contact-us](assets/documentation/contact-us.png)
 
 ### Features need to Implement in the future
 
-- Log in page for the user and the expert travelers.
-- A page to connect the user with the expert travelers.
-- A page for the user to build and share their albums and experiences from travelling.
+- Log in page for the users and other to the expert travelers.
+
+- A page to connect the users with the expert travelers.
+
+- A profile page for the users to build and share their albums and experiences from travelling.
 
 ## Testing
 
 - The project works successfully in the major different browsers.
-- it tasted the contrast by calculating the contrast ratio of text and background color using <https://coolors.co/>
-  
-  ![contrast](https://ahmadalhindi-travel-and-62ni7yomiw.us2.codeanyapp.com/files/download/?id=c485fec5-604e-442b-9449-b46c9c228ba5)
 
-- tested the submit and the hint for required user information details in the sign up form.
-- tested the changing font color or font weight when hover the mouse over the nav-links in header or the submit button in sign up form.
-- The project is tested and worked smoothly to different screen sizes, using media queries and focusing in flex layout. In this case the order of the image and the text in (head image, about us, and contact sections) will be switched horizontally or vertically according to the size of the screen to organize the context and facilitate the viewing.
+- I tasted the contrast by calculating the contrast ratio of text and background color using color contrast checker [coolors](https://coolors.co/contrast-checker/112a46-acc8e5).
+
+![contrast](assets/documentation/contrast.png)
+
+- I tested the submit and the hint for required user information details in the sign up form.
+
+- I tested the changing font color or font weight when hover the mouse over the nav-links and the submit button in sign up form.
+  
+- The project is tested and worked smoothly to different screen sizes, using media queries and using in flex layout. In this case the order of the image and the text in (head image, about us, and contact sections) will be switched horizontally or vertically according to the size of the screen to organize the context and facilitate the viewing.
 
 ## unfixed-bugs
 
-- I used replit.com as a draft working in this project. Then when the project was almost finished, I moved my source code and images files to codeanywhere.
-  
-  I faced many bugs, inconvenient notifications and heavy loading using codeanywhere.
+- I used [Replit](https://replit.com/) as a draft for my project. Then when the project was almost finished, I moved my source codes and files to codeanywhere.
+
+- I faced many bugs, inconvenient notifications and heavy loading using codeanywhere.
+
 - when I tried to log in at codeanywhere using my email address or github account it shows that Subscription expired. So instead, I used the link from Code institute.
 
 ### Validator Testing
 
 - HTML
-  - No errors were returned when passing through the official W3C validator
+  - No errors were found when passing through the official W3C validator.
+  
 - CSS
-  - No errors were found when passing through the official (Jigsaw) validator
+  - No errors were found when passing through the official (Jigsaw) validator.
 
 ### accessibility
 
-I did a test by lighthouse.
+I tested using lighthouse.
 
-![lighthouse](https://ahmadalhindi-travel-and-62ni7yomiw.us2.codeanyapp.com/files/download/?id=4c126563-36ae-464f-91b5-8266ee17efb9)
+![lighthouse](assets/documentation/lighthouse1.png)
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
-
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
-  - In the GitHub repository, navigate to the Settings tab
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+  - In the GitHub repository, navigate to the Settings tab.
+  - From the source section drop-down menu, select the Main Branch.
+  - Once the main branch has been selected, the page provided the link to the completed website.
 
-The live link can be found here - <>
+The live link can be found here - [Travel and Explore](https://ahmadalhindi.github.io/travel-and-explore/).
+
+## Credits
+
+### Content
+
+- Instruction on how to use flexbox as a general was from [YouTube](https://www.youtube.com/), but most of codes were as self-practicing.
+
+- The font was taken from [Google Fonts](https://fonts.google.com/).
+
+### Media
+
+- All images were taken from [Pexels](https://www.pexels.com/)
+  
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
